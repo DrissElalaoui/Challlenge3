@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+.body .body1  {
+    /* background-color: red; */
+    max-width: 1100px;
+    margin:auto;
+    padding: 50px 0;
+}
+/* --------------------- section 1 ---------------- */
+.body .body1 .section1 {
+    /* background-color: blue; */
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.body .body1 .section1 h1,
+.body .body1 .section1 h5 {
+    color: #0000006c;
+}
+.body .body1 .section1 p {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+.body .body1 .section1 h5 {
+    font-size: 16px;
+}
+/* --------------------- section 2 ---------------- */
+.body .body1 .section2 {
+    background-color: #fafafa;
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+.body .body1 .section2 .cart{
+    background-color: #fff;
+    max-width: 300px;
+    text-align: center;
+    padding: 25px 10px;
+    box-shadow: 1px 1px 20px #eee ;
+    transition: 0.7s;
+}
+.body .body1 .section2 .cart:hover {
+    transform: scale(1.04);
+}
+.body .body1 .section2 .cart p {
+    margin: 10px 0 25px ;
+    font-size: 14px;
+}
+.body .body1 .section2 .cart img {
+    width: 50px;
+    height: 50px;
+}
+.body .body1 .section2 .tow {
+    margin: 0 30px;
+}
+.body .body1 .section2 .tow .cart2 {
+    margin-bottom: 30px;
+}
+.body .body1 .section2 .one .cart1 {
+    border-top: 4px solid #261FB3;
+}
+.body .body1 .section2 .tow .cart3 {
+    border-top: 4px solid #E85C0D;  
+}
+.body .body1 .section2 .tow .cart2 {
+    border-top: 4px solid #1A5319;  
+}
+.body .body1 .section2 .tree .cart4 {
+    border-top: 4px solid #41B3A2;  
+}
+.body .body1 .section2 .one h2 {
+    color: #261FB3;
+}
+.body .body1 .section2 .tow .cart3 h2 {
+    color: #E85C0D;
+}
+.body .body1 .section2 .tow .cart2 h2 {
+    color: #1A5319;
+}
+.body .body1 .section2 .tree .cart4 h2 {
+    color: #41B3A2;
+}
